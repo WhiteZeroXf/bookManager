@@ -18,8 +18,6 @@ public class CommonTest {
 
     @Test
     public void TestMain() {
-        System.out.println("------+++++-------");
-        System.out.println("UPDATE ---- TEST");
         System.out.println("Test : "+testService);
         testService.save(new com.zero.pojo.Test());
     }
